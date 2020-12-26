@@ -1,0 +1,99 @@
+
+body {
+    background-color: #0a1625;
+    font-family: Roboto,-apple-system,BlinkMacSystemFont,Segoe UI,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+}
+
+
+
+h1 {
+    color: #afaeae;
+}
+h2 {
+    color:#afaeae;
+}
+h3 {
+    color:#afaeae;
+}
+h4 {
+    color:#afaeae;
+}
+h5 {
+    color:#afaeae;
+}
+h6 {
+    color:#afaeae;
+}
+h7 {
+    color: #afaeae;
+}
+
+
+
+a {
+    color:#afaeae;
+    text-decoration: none;
+    user-select: none;
+}
+
+a:hover {
+    color: #006eff;
+}
+
+p {
+    color:#afaeae;
+    /* background:#152232; */
+    font-size: 18px;
+    text-align: start;
+}
+
+table {
+    color: #afaeae;
+    text-align: left;
+    border-spacing: 10px;
+}
+
+ul {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    float: center;
+}
+
+.topnav li {
+    display: inline-block;
+    padding: 14px;
+}
+
+.topnav a {
+    display: inline-block;
+    background-color:#152232;
+}
+
+.topnav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #152232;
+    
+}
+  
+ .topnav li a {
+    display: inline;
+    padding: 1rem 0.7rem;
+    font-size: 1.3rem;
+    text-decoration: none;
+    
+}
+
+.topnav {
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    user-select: none;
+}
+
+#Login {
+    
+}
