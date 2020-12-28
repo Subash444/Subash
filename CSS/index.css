@@ -31,34 +31,62 @@ h7 {
 
 
 a {
-    color:#afaeae;
+    color:#808a96;
     text-decoration: none;
     user-select: none;
 }
 
 a:hover {
-    color: #006eff;
+    color: #6892c6;
 }
 
 p {
     color:#afaeae;
     /* background:#152232; */
-    font-size: 18px;
+    font-size: 1.2em;
     text-align: start;
 }
 
 table {
     color: #afaeae;
     text-align: left;
-    border-spacing: 10px;
 }
 
 ul {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    float: center;
+
 }
+
+.bottomnav {
+    text-align: left;
+    user-select: text;
+    font-family: 'Oswald',sans-serif;
+}
+
+.bottomnav thead {
+    display: inline-block;
+    padding: 8px;
+    font-size: 18px;
+}
+
+
+
+.bottomnav table {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #152232;
+    position: fixed;
+    bottom: 0;
+    padding: 16px;
+    left: 0;
+    display: inline-block;
+    margin-bottom: 0;
+    width: 100%;
+    border-top-style: outset;
+    border-top-color: #385a85;
+    border-top-width: 3px;
+
+}
+
 
 .topnav li {
     display: inline-block;
@@ -66,34 +94,48 @@ ul {
 }
 
 .topnav a {
-    display: inline-block;
+    display: inline;
     background-color:#152232;
 }
 
 .topnav ul {
     list-style-type: none;
+    padding: 16px;
+    background-color: #152232;  
+    position: fixed;
+    top: 0;
     margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #152232;
-    
+    left: 0;
+    width: 100%;
+    border-bottom-color: #385a85;
+    border-bottom-width: 3px;
+    border-bottom-style: outset;
 }
-  
+
+
  .topnav li a {
     display: inline;
-    padding: 1rem 0.7rem;
-    font-size: 1.3rem;
+    font-size: 13px;
     text-decoration: none;
+    letter-spacing: 0.25px;
     
 }
 
 .topnav {
     width: 100%;
-    text-align: center;
+    text-align: left;
     position: fixed;
     user-select: none;
+    font-family: 'Oswald',sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 0.25px;
 }
 
-#Login {
-    
+.padding-start {
+    padding-inline-start: 130px;
+}
+
+.padding-end {
+    padding-inline-start: 150px;
 }

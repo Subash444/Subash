@@ -1,0 +1,12 @@
+<h>
+<title>
+<p>
+<br>
+lorem
+<a href=""></a>
+background color:  #152232
+2nd background color: #001433
+text color: 999999
+when link hover: #006eff
+
+
